@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Time Traveler",
+    "description": "Go back in time and read the hidden palindrom fibonaci",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/time_traveler.html",
+        "default_icon": "images/logo.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/redirect.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/logo.png",
+        "32": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+    }
+}

@@ -1,0 +1,1 @@
+404 to Archive Redirecter: Never meet a dead link again! This Chrome extension politely asks 404 pages if they’d like to take a trip to the Internet Archive. Save time, explore history, and turn 'Not Found' into 'Found!'
